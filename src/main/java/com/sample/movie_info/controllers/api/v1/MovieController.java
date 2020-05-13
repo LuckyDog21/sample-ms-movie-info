@@ -1,4 +1,4 @@
-package com.sample.movie_info.controllers;
+package com.sample.movie_info.controllers.api.v1;
 
 import com.sample.common.Movie;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@RequestMapping("movies")
+@RequestMapping("api/v1/movies")
 public class MovieController {
 
     @GetMapping({"/", ""})
