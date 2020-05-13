@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/v1/movies")
-public class MovieController {
+public class MovieInfoController {
 
     @GetMapping({"/", ""})
     private List<Movie> list() {
